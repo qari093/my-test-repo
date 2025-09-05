@@ -1,10 +1,1 @@
-# My Test Repo
-
-A simple repository to practice Git and GitHub.
-
-## How to run
-- Describe how to use or run your project here.
-
-## Notes
-- Add any notes or TODOs here.
-
+# My Test Repo\n\nThis project handles sensor data logging, analysis, and dashboard visualization.\n\n## Features\n- Real-time sensor tracking\n- Historical data storage\n- Dashboard UI\n\n## Getting Started\nRun `main.py` to start the app.\n\n## Requirements\nPython 3.13\n\n## Author\nWaqar Ahmad
