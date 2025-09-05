@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sensor Dashboard</title>
+</head>
+<body>
+    <h1>Welcome to the Sensor Dashboard</h1>
+    {% if reading %}
+        <p>Temperature: {{ reading[1] }} °C</p>
+        <p>Humidity: {{ reading[2] }} %</p>
+        <p>Light: {{ reading[3] }} lx</p>
+    {% else %}
+        <p>No data available.</p>
+    {% endif %}
+</body>
+</html>
